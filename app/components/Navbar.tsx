@@ -7,6 +7,7 @@ export default function Navbar(){
                 <div className="max-w-5xl mx-auto flex justify-center space-x-8 py-3">
                     <Link href="/"><h1>Analyse</h1></Link>
                     <Link href="/profile"><h1>Your Profile</h1></Link>
+                    
                 </div>
             </nav>
         </div>
