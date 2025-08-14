@@ -1,0 +1,803 @@
+[
+  {
+    "drug_name": "ibuprofen",
+    "brand_names": [
+      "Motrin",
+      "Advil",
+      "Nurofen"
+    ],
+    "description": "Nonsteroidal anti-inflammatory drug (NSAID) used for analgesia, antipyresis and anti-inflammatory effects.",
+    "primary_uses": [
+      "Pain (mild-moderate)",
+      "Fever",
+      "Inflammatory conditions",
+      "Patent ductus arteriosus (IV formulation in neonates)"
+    ],
+    "mechanism_of_action": "Non-selective reversible inhibition of cyclooxygenase (COX-1 and COX-2) enzymes, reducing prostaglandin synthesis.",
+    "age_restrictions": {
+      "min_age": 0,
+      "max_age": null,
+      "notes": "Oral OTC formulations generally recommended for children ≥6 months (check product labeling); IV neonatal use for PDA in preterm infants under specialist guidance."
+    },
+    "contraindications": [
+      "Hypersensitivity to ibuprofen or other NSAIDs",
+      "Active peptic ulcer disease",
+      "Recent coronary artery bypass graft (CABG) surgery",
+      "Third trimester of pregnancy"
+    ],
+    "cautions": [
+      "History of gastrointestinal bleeding or peptic ulcer",
+      "Renal impairment",
+      "Cardiovascular disease or heart failure",
+      "Concurrent anticoagulant use"
+    ],
+    "side_effects_common": [
+      "Dyspepsia",
+      "Nausea",
+      "Headache",
+      "Dizziness"
+    ],
+    "side_effects_serious": [
+      "Gastrointestinal bleeding",
+      "Acute kidney injury",
+      "Cardiovascular thrombotic events (with long-term/high-dose use)",
+      "Severe hypersensitivity including anaphylaxis"
+    ],
+    "condition_specific_side_effects": [
+      {
+        "condition": "Pregnancy",
+        "effects": [
+          "Premature closure of ductus arteriosus (especially 3rd trimester)"
+        ]
+      },
+      {
+        "condition": "Renal impairment",
+        "effects": [
+          "Worsening renal function, decreased renal perfusion"
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "drug": "Warfarin",
+        "severity": "major",
+        "reason": "Increased bleeding risk via additive anticoagulant effect and displacement of protein binding; NSAIDs impair platelet function."
+      },
+      {
+        "drug": "ACE inhibitors (e.g., lisinopril)",
+        "severity": "moderate",
+        "reason": "Reduced antihypertensive effect and increased risk of renal impairment (NSAID + ACEi + diuretic = triple whammy)."
+      }
+    ],
+    "pregnancy": {
+      "category": "Avoid in 3rd trimester",
+      "notes": "NSAIDs may be used cautiously earlier in pregnancy if necessary but are contraindicated in the third trimester due to risk of premature ductus arteriosus closure and fetal renal impairment."
+    },
+    "breastfeeding": {
+      "safe": true,
+      "notes": "Low levels in breastmilk; short-term use at therapeutic doses generally considered compatible with breastfeeding."
+    },
+    "dosage": {
+      "adult": "200–400 mg orally every 4–6 hours as needed (OTC); maximum commonly 1200 mg/day OTC, up to 2400 mg/day under medical supervision for prescription regimens.",
+      "child": "Dose by weight: commonly 5–10 mg/kg every 6–8 hours (check product labeling; infants and neonates require specialist dosing)."
+    },
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2007/017463s105lbl.pdf",
+      "https://www.ema.europa.eu/en/medicines/human/EPAR/ibuprofen-genorph",
+      "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/ibuprofen-drug-facts-label"
+    ]
+  },
+  {
+    "drug_name": "amoxicillin",
+    "brand_names": [
+      "Amoxil",
+      "Trimox",
+      "Moxatag"
+    ],
+    "description": "A broad-spectrum beta-lactam (aminopenicillin) antibiotic used to treat a variety of bacterial infections.",
+    "primary_uses": [
+      "Otitis media",
+      "Sinusitis",
+      "Pharyngitis",
+      "Community-acquired pneumonia",
+      "Skin and soft tissue infections",
+      "Helicobacter pylori (in combination)"
+    ],
+    "mechanism_of_action": "Bactericidal inhibition of bacterial cell wall synthesis via binding to penicillin-binding proteins (PBPs), inhibiting peptidoglycan cross-linking.",
+    "age_restrictions": {
+      "min_age": 0,
+      "max_age": null,
+      "notes": "Oral suspensions available and commonly used in neonates/infants with weight-based dosing; follow specific product labeling."
+    },
+    "contraindications": [
+      "History of severe hypersensitivity (anaphylaxis) to penicillins or beta-lactams"
+    ],
+    "cautions": [
+      "Mononucleosis (high rate of rash)",
+      "Renal impairment (dose adjustment may be required)"
+    ],
+    "side_effects_common": [
+      "Diarrhoea",
+      "Nausea",
+      "Rash (non-allergic)"
+    ],
+    "side_effects_serious": [
+      "Anaphylaxis",
+      "Clostridioides difficile-associated diarrhoea",
+      "Severe cutaneous adverse reactions (rare)"
+    ],
+    "condition_specific_side_effects": [
+      {
+        "condition": "Mononucleosis",
+        "effects": [
+          "High incidence of maculopapular rash when given amoxicillin"
+        ]
+      },
+      {
+        "condition": "Renal impairment",
+        "effects": [
+          "Accumulation and need for dose adjustment"
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "drug": "Allopurinol",
+        "severity": "moderate",
+        "reason": "Increased incidence of amoxicillin-related rash reported when co-administered (mechanism not fully defined)."
+      },
+      {
+        "drug": "Methotrexate",
+        "severity": "moderate",
+        "reason": "Beta-lactams may reduce renal clearance of methotrexate, increasing toxicity risk."
+      }
+    ],
+    "pregnancy": {
+      "category": "Generally considered compatible (no controlled human studies showing fetal harm)",
+      "notes": "Used in pregnancy when indicated; treat infections promptly."
+    },
+    "breastfeeding": {
+      "safe": true,
+      "notes": "Excreted in breastmilk in low amounts; considered compatible with breastfeeding."
+    },
+    "dosage": {
+      "adult": "Typically 250–500 mg every 8 hours or 500–875 mg every 12 hours depending on indication.",
+      "child": "Weight-based dosing commonly 25–45 mg/kg/day in divided doses for typical infections; up to 90 mg/kg/day for severe infections (use product labeling)."
+    },
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2015/50542s02950754s01950760s01950761s016lbl.pdf",
+      "https://www.ema.europa.eu/en/medicines/human/referrals/amoxil",
+      "https://www.ncbi.nlm.nih.gov/books/NBK548190/"
+    ]
+  },
+  {
+    "drug_name": "lisinopril",
+    "brand_names": [
+      "Zestril",
+      "Prinivil"
+    ],
+    "description": "ACE inhibitor used to treat hypertension, heart failure, and to improve survival after myocardial infarction.",
+    "primary_uses": [
+      "Hypertension",
+      "Heart failure",
+      "Post-myocardial infarction",
+      "Diabetic nephropathy (proteinuric kidney disease)"
+    ],
+    "mechanism_of_action": "Competitive inhibitor of angiotensin-converting enzyme (ACE), reducing conversion of angiotensin I to angiotensin II and decreasing aldosterone — causes vasodilation and reduced blood volume.",
+    "age_restrictions": {
+      "min_age": 0,
+      "max_age": null,
+      "notes": "Use in pediatric patients supported for certain indications and ages per product labeling; avoid in neonates with renal impairment without specialist advice."
+    },
+    "contraindications": [
+      "History of angioedema related to previous ACE inhibitor therapy",
+      "Pregnancy (should be discontinued when pregnancy detected)",
+      "Bilateral renal artery stenosis (relative)"
+    ],
+    "cautions": [
+      "Hyperkalaemia risk in renal impairment",
+      "Use with potassium-sparing diuretics or potassium supplements",
+      "Renal impairment — monitor function and electrolytes"
+    ],
+    "side_effects_common": [
+      "Dry cough",
+      "Dizziness",
+      "Hyperkalaemia"
+    ],
+    "side_effects_serious": [
+      "Angioedema (can be life-threatening)",
+      "Acute renal failure (rare)"
+    ],
+    "condition_specific_side_effects": [
+      {
+        "condition": "Pregnancy",
+        "effects": [
+          "Fetal renal dysfunction, oligohydramnios, fetal skull hypoplasia, and death — discontinue ACE inhibitors when pregnancy is detected."
+        ]
+      },
+      {
+        "condition": "Renal artery stenosis",
+        "effects": [
+          "Markedly reduced renal function and risk of renal failure"
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "drug": "Potassium-sparing diuretics (e.g., spironolactone)",
+        "severity": "major",
+        "reason": "Additive hyperkalaemia risk."
+      },
+      {
+        "drug": "NSAIDs (e.g., ibuprofen)",
+        "severity": "moderate",
+        "reason": "Reduced antihypertensive effect and increased risk of renal impairment when combined."
+      }
+    ],
+    "pregnancy": {
+      "category": "Contraindicated (fetal risk)",
+      "notes": "ACE inhibitors are contraindicated in pregnancy due to fetal toxicity; discontinue as soon as pregnancy is detected."
+    },
+    "breastfeeding": {
+      "safe": false,
+      "notes": "Lisinopril is excreted in human milk; use caution and consider alternatives when breastfeeding."
+    },
+    "dosage": {
+      "adult": "Initial 5–10 mg once daily, titrate up to 20–40 mg once daily depending on response.",
+      "child": "Pediatric dosing is weight-based; refer to product labeling (some preparations approved for pediatric hypertension)."
+    },
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/019777s064lbl.pdf",
+      "https://www.ema.europa.eu/en/documents/referral/opinion-following-article-75-referral-lisinopril-biochemie-international-non-proprietary-name-inn-lisinopril-background-information-and-annexes_i_en.pdf",
+      "https://www.ncbi.nlm.nih.gov/books/NBK538268/"
+    ]
+  },
+  {
+    "drug_name": "metformin",
+    "brand_names": [
+      "Glucophage",
+      "Glumetza",
+      "Riomet"
+    ],
+    "description": "Biguanide antihyperglycemic agent used as first-line therapy in type 2 diabetes mellitus.",
+    "primary_uses": [
+      "Type 2 diabetes mellitus",
+      "Off-label: polycystic ovary syndrome (PCOS) adjunctive therapy"
+    ],
+    "mechanism_of_action": "Decreases hepatic gluconeogenesis and improves peripheral insulin sensitivity; exact mechanism involves activation of AMP-activated protein kinase (AMPK) among others.",
+    "age_restrictions": {
+      "min_age": 10,
+      "max_age": null,
+      "notes": "Some formulations approved for pediatric use (≥10 years) for type 2 diabetes; check formulation labeling."
+    },
+    "contraindications": [
+      "Severe renal impairment (eGFR <30 mL/min/1.73m2)",
+      "Acute or chronic metabolic acidosis (including diabetic ketoacidosis)",
+      "Hypersensitivity to metformin"
+    ],
+    "cautions": [
+      "Use with caution in renal impairment (dose adjustment and monitoring)",
+      "Risk of lactic acidosis in situations of hypoxia, sepsis, or dehydration",
+      "Iodinated contrast procedures — consider withholding in patients with reduced renal function"
+    ],
+    "side_effects_common": [
+      "Gastrointestinal upset (nausea, diarrhoea)",
+      "Metallic taste",
+      "Vitamin B12 deficiency with long-term use"
+    ],
+    "side_effects_serious": [
+      "Lactic acidosis (rare but potentially fatal)"
+    ],
+    "condition_specific_side_effects": [
+      {
+        "condition": "Renal impairment",
+        "effects": [
+          "Increased risk of lactic acidosis; dose reduction or discontinuation may be required."
+        ]
+      },
+      {
+        "condition": "Vitamin B12 deficiency",
+        "effects": [
+          "Peripheral neuropathy risk with long-term therapy"
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "drug": "Cimetidine",
+        "severity": "moderate",
+        "reason": "May increase metformin plasma concentrations by reducing renal tubular secretion."
+      },
+      {
+        "drug": "Iodinated contrast media",
+        "severity": "major",
+        "reason": "Risk of contrast-induced nephropathy leading to increased risk of lactic acidosis; consider withholding metformin."
+      }
+    ],
+    "pregnancy": {
+      "category": "Used in pregnancy when benefits outweigh risks (no clear teratogenic signal)",
+      "notes": "Increasing use in pregnancy for gestational diabetes or PCOS; follow specialist guidance."
+    },
+    "breastfeeding": {
+      "safe": true,
+      "notes": "Metformin is excreted in breastmilk in small amounts; often considered compatible with breastfeeding."
+    },
+    "dosage": {
+      "adult": "Initial 500 mg once or twice daily with meals, titrate to 2000 mg/day (commonly 500 mg twice daily to 1000 mg twice daily) depending on tolerance.",
+      "child": "Pediatric dosing for type 2 diabetes: often 500 mg twice daily initial; refer to product labeling and specialist guidance."
+    },
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/020357s037s039%2C021202s021s023lbl.pdf",
+      "https://www.ema.europa.eu/en/documents/scientific-guideline/metformin-immediate-release-film-coated-tablets-500-850-and-1000-mg-product-specific-bioequivalence-guidance_en.pdf"
+    ]
+  },
+  {
+    "drug_name": "albuterol",
+    "brand_names": [
+      "ProAir HFA",
+      "Ventolin",
+      "Salbutamol"
+    ],
+    "description": "Short-acting beta-2 adrenergic agonist (SABA) bronchodilator for relief of bronchospasm.",
+    "primary_uses": [
+      "Relief of acute bronchospasm in asthma and COPD",
+      "Prevention of exercise-induced bronchospasm"
+    ],
+    "mechanism_of_action": "Selective agonist at beta-2 adrenergic receptors causing bronchial smooth muscle relaxation via increased cAMP.",
+    "age_restrictions": {
+      "min_age": 4,
+      "max_age": null,
+      "notes": "Some inhaler formulations approved for children ≥4 years; nebulized formulations may be used in younger children per product labeling."
+    },
+    "contraindications": [
+      "Hypersensitivity to albuterol or formulation components"
+    ],
+    "cautions": [
+      "Cardiovascular disease (arrhythmias, ischemia) — use with caution",
+      "Diabetes (may cause hyperglycaemia)",
+      "Hyperthyroidism"
+    ],
+    "side_effects_common": [
+      "Tremor",
+      "Palpitations",
+      "Tachycardia",
+      "Nervousness"
+    ],
+    "side_effects_serious": [
+      "Paradoxical bronchospasm (may be life-threatening)",
+      "Significant arrhythmias in susceptible individuals"
+    ],
+    "condition_specific_side_effects": [
+      {
+        "condition": "Cardiac disease",
+        "effects": [
+          "Exacerbation of tachyarrhythmias and myocardial ischemia due to beta-agonist effects."
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "drug": "Beta-blockers (non-selective)",
+        "severity": "major",
+        "reason": "Pharmacologic antagonism may reduce bronchodilatory effect and cause bronchospasm."
+      },
+      {
+        "drug": "Diuretics (e.g., loop diuretics)",
+        "severity": "moderate",
+        "reason": "May potentiate hypokalaemia when used concomitantly with beta-2 agonists."
+      }
+    ],
+    "pregnancy": {
+      "category": "Use if clinically indicated (limited human data)",
+      "notes": "Inhaled beta-2 agonists commonly used in pregnancy for asthma control; benefits typically outweigh risks."
+    },
+    "breastfeeding": {
+      "safe": true,
+      "notes": "Low systemic absorption from inhaled therapy; considered compatible with breastfeeding."
+    },
+    "dosage": {
+      "adult": "Two inhalations (90–100 µg per actuation) every 4–6 hours as needed; for acute exacerbations follow inhaler/nebulizer dosing per product labeling.",
+      "child": "Children ≥4 years: 2 inhalations every 4–6 hours as needed (refer to product labeling); nebulized solutions dosed by weight/clinic protocol."
+    },
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/021457s036lbl.pdf",
+      "https://www.medicines.org.uk/emc/product/850/smpc",
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/021457s013lbl.pdf"
+    ]
+  },
+  {
+    "drug_name": "sertraline",
+    "brand_names": [
+      "Zoloft",
+      "Lustral"
+    ],
+    "description": "Selective serotonin reuptake inhibitor (SSRI) antidepressant.",
+    "primary_uses": [
+      "Major depressive disorder",
+      "Obsessive-compulsive disorder (OCD)",
+      "Panic disorder",
+      "PTSD",
+      "Social anxiety disorder"
+    ],
+    "mechanism_of_action": "Selective inhibition of serotonin (5-HT) reuptake transporters (SERT), increasing synaptic serotonin levels.",
+    "age_restrictions": {
+      "min_age": 6,
+      "max_age": null,
+      "notes": "Approved for certain pediatric indications (e.g., OCD in children ≥6 years); monitor for suicidality in young people."
+    },
+    "contraindications": [
+      "Concurrent use with MAO inhibitors or within 14 days of MAOI therapy",
+      "Hypersensitivity to sertraline"
+    ],
+    "cautions": [
+      "Increased risk of suicidal ideation in children/adolescents/young adults",
+      "Serotonin syndrome risk with other serotonergic agents",
+      "Use with anticoagulants or antiplatelet agents increases bleeding risk"
+    ],
+    "side_effects_common": [
+      "Nausea",
+      "Insomnia or somnolence",
+      "Sexual dysfunction",
+      "Diarrhoea"
+    ],
+    "side_effects_serious": [
+      "Serotonin syndrome",
+      "Increased suicidal ideation in young people",
+      "Severe hyponatraemia (rare)"
+    ],
+    "condition_specific_side_effects": [
+      {
+        "condition": "Use with anticoagulants/antiplatelets",
+        "effects": [
+          "Increased bleeding risk due to impaired platelet aggregation when combined with SSRIs."
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "drug": "MAO inhibitors",
+        "severity": "major",
+        "reason": "Risk of life-threatening serotonin syndrome."
+      },
+      {
+        "drug": "Warfarin",
+        "severity": "moderate",
+        "reason": "Increased INR and bleeding risk reported when SSRIs are co-administered with warfarin."
+      }
+    ],
+    "pregnancy": {
+      "category": "Use if clinically indicated (no consistent evidence of major teratogenicity)",
+      "notes": "Consider risks of untreated depression vs potential neonatal adaptation syndrome; consult specialist."
+    },
+    "breastfeeding": {
+      "safe": false,
+      "notes": "Sertraline is present in breastmilk but often chosen among SSRIs when breastfeeding due to favorable infant exposure profile; monitor infant."
+    },
+    "dosage": {
+      "adult": "50 mg once daily (range 25–200 mg/day depending on indication).",
+      "child": "Pediatric dosing varies by indication (e.g., OCD: often 25 mg/day initial for children, titrate per weight/response) — follow product labeling."
+    },
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/019839s74s86s87_20990s35s44s45lbl.pdf",
+      "https://www.ema.europa.eu/en/documents/referral/zoloft-article-30-referral-annex-i-ii-iii-iv_en.pdf"
+    ]
+  },
+  {
+    "drug_name": "warfarin",
+    "brand_names": [
+      "Coumadin",
+      "Jantoven"
+    ],
+    "description": "Vitamin K antagonist oral anticoagulant used for prevention and treatment of thromboembolic disorders.",
+    "primary_uses": [
+      "Prevention and treatment of venous thromboembolism (DVT/PE)",
+      "Stroke prevention in atrial fibrillation (when indicated)",
+      "Valve thrombosis prevention in mechanical heart valves"
+    ],
+    "mechanism_of_action": "Inhibits vitamin K epoxide reductase complex 1 (VKORC1), reducing gamma-carboxylation of vitamin K-dependent clotting factors II, VII, IX and X and anticoagulant proteins C and S.",
+    "age_restrictions": {
+      "min_age": 0,
+      "max_age": null,
+      "notes": "Neonatal use is complex; neonatal dosing/indications differ and require specialist management. Use in pediatrics only under specialist guidance."
+    },
+    "contraindications": [
+      "Pregnancy when used for non-mechanical valve indications (teratogenic and bleeding risk)",
+      "Uncontrolled bleeding",
+      "Severe hepatic impairment with coagulopathy",
+      "Hypersensitivity to warfarin"
+    ],
+    "cautions": [
+      "Numerous drug–drug and drug–food interactions (vitamin K rich foods influence INR)",
+      "Require frequent INR monitoring and dose adjustments",
+      "Use caution in elderly and those with high bleeding risk"
+    ],
+    "side_effects_common": [
+      "Bleeding (minor)",
+      "Bruising"
+    ],
+    "side_effects_serious": [
+      "Major bleeding (intracranial, gastrointestinal)",
+      "Skin necrosis (rare)",
+      "Teratogenicity when used in pregnancy (fetal warfarin syndrome)"
+    ],
+    "condition_specific_side_effects": [
+      {
+        "condition": "Pregnancy",
+        "effects": [
+          "Fetal warfarin syndrome (skeletal and nasal hypoplasia) and CNS abnormalities; avoid during pregnancy unless benefits outweigh risks (mechanical valves may warrant specialist management)."
+        ]
+      },
+      {
+        "condition": "Protein C or S deficiency",
+        "effects": [
+          "Transient hypercoagulable state on initiation; consider bridging with heparin"
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "drug": "NSAIDs (e.g., ibuprofen)",
+        "severity": "major",
+        "reason": "Increased bleeding risk due to additive antiplatelet effects and GI irritation."
+      },
+      {
+        "drug": "Amoxicillin (oral broad-spectrum antibiotics)",
+        "severity": "moderate",
+        "reason": "Alteration of gut flora and vitamin K synthesis can affect INR; monitor closely."
+      }
+    ],
+    "pregnancy": {
+      "category": "Contraindicated for most of pregnancy (teratogenic)",
+      "notes": "Warfarin is teratogenic and associated with fetal bleeding; specialist consultation required for anticoagulation in pregnancy."
+    },
+    "breastfeeding": {
+      "safe": true,
+      "notes": "Warfarin is poorly excreted in breastmilk and is considered compatible with breastfeeding when clinically indicated."
+    },
+    "dosage": {
+      "adult": "Dose individualized to achieve target INR (commonly initial 5–10 mg/day for 1–2 days then adjust); maintenance varies (e.g., 2–10 mg/day).",
+      "child": "Pediatric dosing individualized with frequent INR monitoring; specialist protocols apply."
+    },
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/009218s108lbl.pdf",
+      "https://www.medicines.org.uk/emc/product/14333/smpc",
+      "https://www.ema.europa.eu/en/medicines/human/referrals/warfarin-sodium"
+    ]
+  },
+  {
+    "drug_name": "infliximab",
+    "brand_names": [
+      "Remicade",
+      "Inflectra (biosimilar)"
+    ],
+    "description": "Chimeric monoclonal antibody (anti-TNF-alpha) biologic used to treat inflammatory autoimmune diseases.",
+    "primary_uses": [
+      "Rheumatoid arthritis",
+      "Crohn's disease",
+      "Ulcerative colitis",
+      "Ankylosing spondylitis",
+      "Psoriatic arthritis",
+      "Plaque psoriasis"
+    ],
+    "mechanism_of_action": "Binds soluble and transmembrane tumor necrosis factor alpha (TNF-α), neutralizing its pro-inflammatory effects.",
+    "age_restrictions": {
+      "min_age": 6,
+      "max_age": null,
+      "notes": "Pediatric indications exist for certain conditions (e.g., Crohn's disease) from age 6 in some formulations; specialist management required."
+    },
+    "contraindications": [
+      "Active severe infections (including sepsis, tuberculosis)",
+      "Hypersensitivity to infliximab or murine proteins",
+      "Moderate-to-severe heart failure (relative contraindication)"
+    ],
+    "cautions": [
+      "Increased risk of serious infections including TB and opportunistic infections",
+      "Risk of reactivation of hepatitis B",
+      "Possible increased malignancy risk in some populations"
+    ],
+    "side_effects_common": [
+      "Infusion reactions (fever, chills)",
+      "Upper respiratory infections",
+      "Headache"
+    ],
+    "side_effects_serious": [
+      "Serious infections (including TB)",
+      "Sepsis",
+      "Rare demyelinating disorders",
+      "Hepatosplenic T-cell lymphoma (very rare in young males on concomitant immunosuppressants)"
+    ],
+    "condition_specific_side_effects": [
+      {
+        "condition": "Latent tuberculosis",
+        "effects": [
+          "Reactivation of TB; mandatory screening before initiation."
+        ]
+      },
+      {
+        "condition": "Hepatitis B carrier state",
+        "effects": [
+          "Risk of reactivation; monitor viral markers and consider prophylaxis."
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "drug": "Live vaccines",
+        "severity": "major",
+        "reason": "Concomitant use with live vaccines contraindicated due to risk of disseminated infection in immunosuppressed patients."
+      },
+      {
+        "drug": "Other biologic immunosuppressants (e.g., abatacept)",
+        "severity": "major",
+        "reason": "Increased risk of serious infections and immunosuppression; generally avoid combination therapy."
+      }
+    ],
+    "pregnancy": {
+      "category": "Use only if clearly needed (limited data)",
+      "notes": "Limited human data; potential risks to fetus from immunosuppression — weigh maternal benefits and fetal risks; many clinicians time dosing around pregnancy and consult specialists."
+    },
+    "breastfeeding": {
+      "safe": false,
+      "notes": "Monoclonal antibodies are large proteins with minimal oral bioavailability; limited data—consult specialist; some guidelines consider breastfeeding acceptable but monitor infant."
+    },
+    "dosage": {
+      "adult": "5 mg/kg IV at 0, 2 and 6 weeks, then every 8 weeks for many indications (dose and schedule vary by indication).",
+      "child": "Pediatric dosing varies by indication and weight; e.g., Crohn's disease protocols often 5 mg/kg with similar induction schedule — specialist-guided."
+    },
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/103772s5359lbl.pdf",
+      "https://www.ema.europa.eu/en/documents/product-information/remicade-epar-product-information_en.pdf"
+    ]
+  },
+  {
+    "drug_name": "omeprazole",
+    "brand_names": [
+      "Prilosec",
+      "Losec"
+    ],
+    "description": "Proton pump inhibitor (PPI) that suppresses gastric acid secretion.",
+    "primary_uses": [
+      "Gastroesophageal reflux disease (GERD)",
+      "Peptic ulcer disease",
+      "H. pylori eradication (component of combination therapy)",
+      "Erosive esophagitis"
+    ],
+    "mechanism_of_action": "Irreversibly inhibits H+/K+ ATPase (proton pump) in gastric parietal cells, reducing gastric acid secretion.",
+    "age_restrictions": {
+      "min_age": 1,
+      "max_age": null,
+      "notes": "Some formulations approved for pediatric patients ≥1 year for GERD/erosive esophagitis; check product labeling for age-specific dosing."
+    },
+    "contraindications": [
+      "Hypersensitivity to omeprazole or substituted benzimidazoles"
+    ],
+    "cautions": [
+      "Long-term use associated with risk of bone fractures, hypomagnesaemia, B12 deficiency",
+      "Masking of malignancy symptoms in persistent dyspepsia"
+    ],
+    "side_effects_common": [
+      "Headache",
+      "Nausea",
+      "Abdominal pain",
+      "Diarrhoea or constipation"
+    ],
+    "side_effects_serious": [
+      "Clostridioides difficile infection (increased risk with PPI use)",
+      "Hypomagnesaemia",
+      "Acute interstitial nephritis (rare)"
+    ],
+    "condition_specific_side_effects": [
+      {
+        "condition": "Long-term therapy",
+        "effects": [
+          "Risk of osteoporosis-related fractures and B12 deficiency; monitor when appropriate."
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "drug": "Clopidogrel",
+        "severity": "moderate",
+        "reason": "Omeprazole may reduce activation of clopidogrel via CYP2C19 inhibition; consider alternative PPI if concerned."
+      },
+      {
+        "drug": "Warfarin",
+        "severity": "moderate",
+        "reason": "Potential increase in INR; monitor anticoagulation when initiating or stopping omeprazole."
+      }
+    ],
+    "pregnancy": {
+      "category": "Use if clinically indicated (no proven teratogenicity)",
+      "notes": "Short-term use in pregnancy for GERD is generally considered when benefits outweigh risks; consult specialist."
+    },
+    "breastfeeding": {
+      "safe": true,
+      "notes": "Present in breastmilk in small amounts; generally considered compatible with breastfeeding."
+    },
+    "dosage": {
+      "adult": "20–40 mg once daily depending on indication.",
+      "child": "Pediatric dosing depends on age/weight; some oral suspension/capsule formulations approved for children ≥1 year — follow product labeling."
+    },
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/019810s096lbl.pdf",
+      "https://www.ema.europa.eu/en/documents/referral/losec_en.pdf",
+      "https://www.medicines.org.uk/emc/product/4895/smpc"
+    ]
+  },
+  {
+    "drug_name": "azithromycin",
+    "brand_names": [
+      "Zithromax",
+      "Zmax"
+    ],
+    "description": "Macrolide antibiotic with broad activity against many respiratory and atypical pathogens.",
+    "primary_uses": [
+      "Community-acquired respiratory tract infections",
+      "Atypical pneumonia (Mycoplasma, Chlamydia)",
+      "Chlamydia trachomatis infections",
+      "Some skin and soft tissue infections"
+    ],
+    "mechanism_of_action": "Binds to the 50S bacterial ribosomal subunit, inhibiting translocation and protein synthesis (bacteriostatic; may be bactericidal at high concentrations against some organisms).",
+    "age_restrictions": {
+      "min_age": 0,
+      "max_age": null,
+      "notes": "Oral suspension formulations available for infants/children; follow age/weight dosing in labeling. Recent EMA guidance has narrowed some indications to reduce resistance."
+    },
+    "contraindications": [
+      "Known hypersensitivity to azithromycin or macrolide antibiotics",
+      "History of cholestatic jaundice/hepatic dysfunction associated with azithromycin"
+    ],
+    "cautions": [
+      "QT prolongation risk — use cautiously with other QT-prolonging drugs",
+      "Severe hepatic impairment — monitor liver function"
+    ],
+    "side_effects_common": [
+      "Diarrhoea",
+      "Nausea",
+      "Abdominal pain",
+      "Vomiting"
+    ],
+    "side_effects_serious": [
+      "QT prolongation and torsades de pointes (rare)",
+      "Severe hepatic injury (rare)",
+      "Allergic reactions including anaphylaxis (rare)"
+    ],
+    "condition_specific_side_effects": [
+      {
+        "condition": "Cardiac disease",
+        "effects": [
+          "Increased risk of arrhythmia and QT prolongation in patients with existing cardiac disease or on other QT-prolonging drugs."
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "drug": "Statins (e.g., simvastatin)",
+        "severity": "moderate",
+        "reason": "Increased risk of myopathy/rhabdomyolysis with certain statins; check specific statin interactions."
+      },
+      {
+        "drug": "Antacids containing aluminum or magnesium",
+        "severity": "minor",
+        "reason": "May reduce oral azithromycin absorption if administered simultaneously; separate dosing intervals."
+      }
+    ],
+    "pregnancy": {
+      "category": "Generally considered compatible (no strong evidence of teratogenicity)",
+      "notes": "Use when clinically indicated; consider alternatives based on infection and resistance patterns."
+    },
+    "breastfeeding": {
+      "safe": true,
+      "notes": "Azithromycin is excreted in breastmilk in low amounts; considered compatible with breastfeeding."
+    },
+    "dosage": {
+      "adult": "Typical adult z‑pack: 500 mg on day 1 followed by 250 mg once daily on days 2–5; other regimens exist depending on formulation.",
+      "child": "Weight-based dosing (e.g., 10 mg/kg day 1 then 5 mg/kg days 2–5) for many pediatric infections; follow product labeling."
+    },
+    "sources": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/050670s036%2C050710s051%2C050711s050%2C050784s037lbl.pdf",
+      "https://www.ema.europa.eu/en/medicines/human/referrals/azithromycin-containing-medicinal-products-systemic-use",
+      "https://www.medicines.org.uk/emc/product/2272/smpc"
+    ]
+  }
+]

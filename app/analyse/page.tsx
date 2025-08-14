@@ -1,7 +1,9 @@
-'use client'
+'use client';
 import {useState} from "react";
+import { useRouter } from "next/navigation";
 
 export default function Analyse(){
+    const router = useRouter();
     const [formData,setFormData]=useState({
         name:"",
         age:"",
@@ -9,7 +11,7 @@ export default function Analyse(){
         pregnancyStatus:"",
         breastfeeding:"",
         allergies:"",
-        medicalCsonditions:"",
+        medicalConditions:"", // Fix typo here
         currentMedications:"", 
         drugToAnalyse:"",
 
@@ -24,12 +26,14 @@ export default function Analyse(){
         });
     };
 
-    const handleSubmit=(e:React.FormEvent)=>{
+    const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        console.log("Analysis Request: ",formData);
-        alert(`Running analysis for : ${formData.drugToAnalyse}`);
-
+        console.log('Form data being submitted:', formData);
+        const queryString = new URLSearchParams(formData as any).toString();
+        console.log('Query string:', queryString);
+        router.push(`/result?${queryString}`);
     };
+    
     return(
         <div className="min-h-screen bg-gradient-to-r from-gray-100 to-blue-200 flex items-center justify-center p-4">
             <div className="bg-white shadow-lg rounded-xl p-8 max-w-lg w-full">
